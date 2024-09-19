@@ -90,7 +90,7 @@ function App() {
                 <div className="flex flex-col gap-3">
                   <h4>
                     ASI Asia Pacific{" "}
-                    <span className="">(Mar 2024 - Jun 2024)</span>
+                    <span className="">(Apr 2024 - Jun 2024)</span>
                   </h4>
                   <h5 className="">Software Engineer Intern</h5>
                   <p className=" font-light">
@@ -102,10 +102,10 @@ function App() {
 
                 <div className="flex flex-col gap-3">
                   <h4>
-                    ASI Asia Pacific{" "}
-                    <span className="">(Mar 2024 - Jun 2024)</span>
+                    PT. Solusi Global Grup{" "}
+                    <span className="">(Apr 2024 - Jun 2024)</span>
                   </h4>
-                  <h5 className="">Software Engineer Intern</h5>
+                  <h5 className="">Backend Developer</h5>
                   <p className=" font-light">
                     Designed optimized database, developed scalable Laravel
                     RESTful API with JWT authentication and authorization.
@@ -125,7 +125,6 @@ function App() {
                     CSS. Just see it yourself.
                   </p>
                 </div>
-
 
                 <div className="flex flex-col gap-3">
                   <h4>Scrum-GSD</h4>
@@ -150,24 +149,36 @@ function App() {
           </div>
 
           <footer className="border-t border-t-neutral-400 mt-12">
-            <div className="py-2 flex flex-col-reverse sm:flex-row justify-between items-center">
+            <div className="py-2 flex flex-col-reverse gap-2 sm:flex-row justify-between items-center">
               <p className="text-sm text-neutral-200 text-right">
                 dzakynashshar
               </p>
               <div className="text-sm flex gap-3">
-                <a href="mailto:dzakynashshar@gmail.com" className="hover:text-gray-200 flex items-start">
+                <a
+                  href="mailto:dzakynashshar@gmail.com"
+                  className="hover:text-gray-200 flex items-start"
+                >
                   email
                   <LuArrowUpRight />
                 </a>
-                <a href="https://github.com/dzackiero" className="hover:text-gray-200 flex items-start">
+                <a
+                  href="https://github.com/dzackiero"
+                  className="hover:text-gray-200 flex items-start"
+                >
                   github
                   <LuArrowUpRight />
                 </a>
-                <a href="https://www.linkedin.com/in/muhammad-dzaky-nashshar/" className="hover:text-gray-200 flex items-start">
+                <a
+                  href="https://www.linkedin.com/in/muhammad-dzaky-nashshar/"
+                  className="hover:text-gray-200 flex items-start"
+                >
                   linkedin
                   <LuArrowUpRight />
                 </a>
-                <a href="https://open.spotify.com/user/idw379rk89nzco86fukcyzc89?si=27871715b5f84348" className="hover:text-gray-200 flex items-start">
+                <a
+                  href="https://open.spotify.com/user/idw379rk89nzco86fukcyzc89?si=27871715b5f84348"
+                  className="hover:text-gray-200 flex items-start"
+                >
                   spotify
                   <LuArrowUpRight />
                 </a>
