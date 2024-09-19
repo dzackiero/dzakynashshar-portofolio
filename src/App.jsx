@@ -16,10 +16,10 @@ import { LuArrowUpRight } from "react-icons/lu";
 function App() {
   return (
     <>
-      <main className="bg-neutral-950 min-h-screen text-white flex flex-col items-center ">
-        <div className="max-w-screen-sm w-full font-space mt-12">
+      <main className="bg-neutral-950 min-h-screen text-white flex flex-col items-center">
+        <div className="max-w-screen-sm w-full font-space mt-6 sm:mt-12 px-8 sm:px-0">
           {/* Title */}
-          <div className="flex justify-between items-center my-8">
+          <div className="flex flex-col sm:flex-row gap-2 sm:justify-between sm:items-center my-8">
             <h1 className="font-semibold text-xl">M. Dzaky Nashshar</h1>
             <div className="flex items-center gap-2">
               <HiOutlineLocationMarker className="size-5" />
@@ -82,7 +82,7 @@ function App() {
           </div>
 
           {/* Experiences & Projects */}
-          <div className="grid grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-12">
             {/* Experiences */}
             <div>
               <h2 className="text-lg font-semibold mt-16 mb-6">Experiences</h2>
@@ -150,7 +150,7 @@ function App() {
           </div>
 
           <footer className="border-t border-t-neutral-400 mt-12">
-            <div className="py-2 flex justify-between items-center">
+            <div className="py-2 flex flex-col-reverse sm:flex-row justify-between items-center">
               <p className="text-sm text-neutral-200 text-right">
                 dzakynashshar
               </p>
