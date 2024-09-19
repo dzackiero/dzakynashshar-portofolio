@@ -40,7 +40,7 @@ function App() {
           <h2 className="text-lg text-center font-semibold mt-14 mb-8">
             Tech Stack
           </h2>
-          <div className="flex gap-6 justify-center flex-wrap text-sm">
+          <div className="flex gap-6 justify-center flex-wrap ">
             <Badge
               icon={<FaLaravel className="size-5 text-red-500" />}
               text={"Laravel"}
@@ -86,14 +86,14 @@ function App() {
             {/* Experiences */}
             <div>
               <h2 className="text-lg font-semibold mt-16 mb-6">Experiences</h2>
-              <div className="flex flex-col gap-10">
+              <div className="flex flex-col gap-12">
                 <div className="flex flex-col gap-3">
                   <h4>
                     ASI Asia Pacific{" "}
-                    <span className="text-sm">(Mar 2024 - Jun 2024)</span>
+                    <span className="">(Mar 2024 - Jun 2024)</span>
                   </h4>
-                  <h5 className="text-sm">Software Engineer Intern</h5>
-                  <p className="text-sm font-light">
+                  <h5 className="">Software Engineer Intern</h5>
+                  <p className=" font-light">
                     Developed a full-stack Laravel app with TALL Stack,
                     integrated RabbitMQ, and consumed internal APIs for
                     integration.
@@ -103,10 +103,10 @@ function App() {
                 <div className="flex flex-col gap-3">
                   <h4>
                     ASI Asia Pacific{" "}
-                    <span className="text-sm">(Mar 2024 - Jun 2024)</span>
+                    <span className="">(Mar 2024 - Jun 2024)</span>
                   </h4>
-                  <h5 className="text-sm">Software Engineer Intern</h5>
-                  <p className="text-sm font-light">
+                  <h5 className="">Software Engineer Intern</h5>
+                  <p className=" font-light">
                     Designed optimized database, developed scalable Laravel
                     RESTful API with JWT authentication and authorization.
                   </p>
@@ -117,18 +117,19 @@ function App() {
             {/* Projects */}
             <div>
               <h2 className="text-lg font-semibold mt-16 mb-6">Projects</h2>
-              <div className="flex flex-col gap-10">
+              <div className="flex flex-col gap-12">
                 <div className="flex flex-col gap-3">
                   <h4>Portofolio Website</h4>
-                  <p className="text-sm font-light">
+                  <p className=" font-light">
                     Just a simple portofolio website using React.js and Tailwind
                     CSS. Just see it yourself.
                   </p>
                 </div>
 
+
                 <div className="flex flex-col gap-3">
                   <h4>Scrum-GSD</h4>
-                  <p className="text-sm font-light">
+                  <p className=" font-light">
                     Developed a simple full-stack Scrum evaluation website using
                     TALL Stack, following Laravel best practices.
                   </p>
@@ -140,7 +141,7 @@ function App() {
                   target="_blank"
                   href="https://github.com/dzackiero?tab=repositories"
                 >
-                  <p className="flex items-center gap-2  border-b-2 border-b-neutral-100 w-fit text-sm">
+                  <p className="flex items-center gap-2  border-b-2 border-b-neutral-120 w-fit ">
                     my other projects <FaArrowRight />
                   </p>
                 </a>
@@ -150,10 +151,10 @@ function App() {
 
           <footer className="border-t border-t-neutral-400 mt-12">
             <div className="py-2 flex justify-between items-center">
-              <p className="text-xs text-neutral-200 text-right">
+              <p className="text-sm text-neutral-200 text-right">
                 dzakynashshar
               </p>
-              <div className="text-xs flex gap-3">
+              <div className="text-sm flex gap-3">
                 <a href="" className="hover:text-gray-200 flex items-start">
                   email
                   <LuArrowUpRight />
