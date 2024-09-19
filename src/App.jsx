@@ -155,19 +155,19 @@ function App() {
                 dzakynashshar
               </p>
               <div className="text-sm flex gap-3">
-                <a href="" className="hover:text-gray-200 flex items-start">
+                <a href="mailto:dzakynashshar@gmail.com" className="hover:text-gray-200 flex items-start">
                   email
                   <LuArrowUpRight />
                 </a>
-                <a href="" className="hover:text-gray-200 flex items-start">
+                <a href="https://github.com/dzackiero" className="hover:text-gray-200 flex items-start">
                   github
                   <LuArrowUpRight />
                 </a>
-                <a href="" className="hover:text-gray-200 flex items-start">
+                <a href="https://www.linkedin.com/in/muhammad-dzaky-nashshar/" className="hover:text-gray-200 flex items-start">
                   linkedin
                   <LuArrowUpRight />
                 </a>
-                <a href="" className="hover:text-gray-200 flex items-start">
+                <a href="https://open.spotify.com/user/idw379rk89nzco86fukcyzc89?si=27871715b5f84348" className="hover:text-gray-200 flex items-start">
                   spotify
                   <LuArrowUpRight />
                 </a>
