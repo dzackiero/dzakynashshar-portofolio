@@ -89,10 +89,9 @@ function App() {
               <div className="flex flex-col gap-12">
                 <div className="flex flex-col gap-3">
                   <h4>
-                    ASI Asia Pacific{" "}
-                    <span className="">(Apr 2024 - Jun 2024)</span>
+                    ASI Asia Pacific <span>(Apr 2024 - Jun 2024)</span>
                   </h4>
-                  <h5 className="">Software Engineer Intern</h5>
+                  <h5>Software Engineer Intern</h5>
                   <p className=" font-light">
                     Developed a full-stack Laravel app with TALL Stack,
                     integrated RabbitMQ, and consumed internal APIs for
@@ -102,10 +101,9 @@ function App() {
 
                 <div className="flex flex-col gap-3">
                   <h4>
-                    PT. Solusi Global Grup{" "}
-                    <span className="">(Apr 2024 - Jun 2024)</span>
+                    PT. Solusi Global Grup <span>(Apr 2024 - Jun 2024)</span>
                   </h4>
-                  <h5 className="">Backend Developer</h5>
+                  <h5>Backend Developer</h5>
                   <p className=" font-light">
                     Designed optimized database, developed scalable Laravel
                     RESTful API with JWT authentication and authorization.
@@ -119,7 +117,14 @@ function App() {
               <h2 className="text-lg font-semibold mt-16 mb-6">Projects</h2>
               <div className="flex flex-col gap-12">
                 <div className="flex flex-col gap-3">
-                  <h4>Portofolio Website</h4>
+                  <a
+                    href="https://dzakynashshar.com"
+                    target="_blank"
+                    className="group w-fit"
+                  >
+                    Portofolio Website
+                    <div class="bg-white h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+                  </a>
                   <p className=" font-light">
                     Just a simple portofolio website using React.js and Tailwind
                     CSS. Just see it yourself.
@@ -127,7 +132,14 @@ function App() {
                 </div>
 
                 <div className="flex flex-col gap-3">
-                  <h4>Scrum-GSD</h4>
+                  <a
+                    href="https://scrumgsd.id"
+                    target="_blank"
+                    className="group w-fit "
+                  >
+                    Scrum-GSD
+                    <div class="bg-white h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+                  </a>
                   <p className=" font-light">
                     Developed a simple full-stack Scrum evaluation website using
                     TALL Stack, following Laravel best practices.
@@ -140,15 +152,18 @@ function App() {
                   target="_blank"
                   href="https://github.com/dzackiero?tab=repositories"
                 >
-                  <p className="flex items-center gap-2  border-b-2 border-b-neutral-120 w-fit ">
-                    my other projects <FaArrowRight />
-                  </p>
+                  <div className="group w-fit">
+                    <div className="flex items-center gap-2 w-fit">
+                      my other projects <FaArrowRight />
+                    </div>
+                      <div class="bg-white h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+                  </div>
                 </a>
               </div>
             </div>
           </div>
 
-          <footer className="border-t border-t-neutral-400 mt-12">
+          <footer className="border-t border-t-neutral-400 mt-12 mb-6">
             <div className="py-2 flex flex-col-reverse gap-2 sm:flex-row justify-between items-center">
               <p className="text-sm text-neutral-200 text-right">
                 dzakynashshar
@@ -177,10 +192,10 @@ function App() {
                 </a>
                 <a
                   href="https://open.spotify.com/user/idw379rk89nzco86fukcyzc89?si=27871715b5f84348"
-                  className="hover:text-gray-200 flex items-start"
+                  className="hover:text-gray-200 flex items-start group"
                 >
                   spotify
-                  <LuArrowUpRight />
+                  <LuArrowUpRight className="group-hover:animate-spin" />
                 </a>
               </div>
             </div>
